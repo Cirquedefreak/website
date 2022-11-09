@@ -1,0 +1,51 @@
+/*adding code 
+<style> is external
+link the style on the index page*/
+/*notes in css* think colour, font, headings think top to the bottom,
+NOT getting marked on inline styling at this point*/
+h1 {
+    color:green;
+    font: size 75px;
+    
+}
+
+/*this is how we target an element*/
+/*to target all paragrapths*/
+h2, h3 {
+    color:rgba(0, 255, 255, 0.596);
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 45px;
+}
+#navbar{
+   background-color: rgba(0, 195, 255, 0.349);
+    text-align: center;
+    font-size:50px;
+    display:flex;
+    flex-direction:column;
+}
+.contactme {color:aqua;}
+.welcome {color:brown;}
+
+img{
+    width:30%;
+}
+.landingpage{
+    background-color: lightslategrey;
+}
+.about1 {
+    background-color: lightslategray;
+}
+
+.about1{
+    background-image: url(backgroundcode.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size:contain
+}
+
+.getintouch{
+    background-color: lightslategray;  
+}
+/*navbar styling goes here for all pages.
+to call class its . to call id # */

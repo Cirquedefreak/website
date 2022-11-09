@@ -1,0 +1,13 @@
+its html to move things around your page. vertical axis or vertical axis.
+to turn on flexbox - so nav bar goes to middle of display flex
+within #navbar {} section of css code add 
+
+
+display:flex;
+justify-content:center only works with flex box, can amend center to other option
+flex-direction: column
+align-items:center
+
+justify moves horizontally across page default left to right
+
+can remove centre and see the drop down options
